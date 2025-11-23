@@ -1,0 +1,8 @@
+/* style.css */
+body {
+  background-image: url('https://ik.imagekit.io/l7uslhlci/IMG_3428.jpeg'); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  background-color: #f0f0f0; /* Fallback color if image doesn't load */
+}
