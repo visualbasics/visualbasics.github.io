@@ -1,0 +1,137 @@
+
+<head>
+
+<title>VB</title>
+	<h2>VisualBasics</h2>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<style>
+.adlam-display-regular {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "ADLaM Display", system-ui;
+    font-size: 28px; color: #0ED9E7;
+}
+
+a:link {
+  color:#0ED9E7;
+  background-color: transparent;
+  text-decoration: stroke="6px";
+}
+
+a:visited {
+  color:#163ce7;
+  background-color: transparent;
+  text-decoration: stroke="6px";
+}
+
+a:hover {
+  color:blue;
+  background-color: transparent;
+  text-decoration: stroke="9px";
+}
+
+a:active {
+  color:#163ce7;
+  background-color: transparent;
+  text-decoration: stroke="6px";
+  outline-color:black
+  
+}
+</style>
+</style>
+	<title></title>
+<iframe src="https://tvfrontier-material.github.io/vbxcmt.png" name="iframe_a" height="99%" width="99%" title="game"></iframe>
+<p><a href="https://quiz-120.github.io/projects/1v1lol/game.html" target="iframe_a">1v1.lol</a></p>
+<p><a href="https://quiz-120.github.io/projects/bitlife/game.html" target="iframe_a">BitLife</a></p>
+<p><a href="https://dddavit.github.io/subway" target="iframe_a">Subway surfers</a></p
+<p><a href="https://quiz-120.github.io/monkeygg2" target="iframe_a">MonkeyGG2</a></p>
+<p><a href="https://subjectedu511.github.io/g5/class-450/" target="iframe_a">Slope</a></p>
+<p><a href="https://www.hoodamath.com/games/ovo.html#gsc.tab=0" target="iframe_a">OVO </a></p>
+<p><a href="https://subjectedu511.github.io/g50/class-29" target="iframe_a">Bullet Bros</a></p> 
+<p><a href="https://tvfrontier-material.github.io/down.png" target="iframe_a">Interstellar (working to fix)</a></p>
+<p><a href="https://www.hoodamath.com/games/snowrider3d.html#gsc.tab=0" target="iframe_a">Snow Rider 3d</a></p>
+<p><a href="https://quiz-120.github.io/projects/drive-mad/game.html" target="iframe_a">Drive Mad</a></p>
+<p><a href="https://quiz-120.github.io/projects/basketball-stars/game.html" target="iframe_a">BasketBall Stars</a></p>
+<p><a href="https://subjectedu511.github.io/g72/class-414/" target="iframe_a">Monster Tracks</a></p>
+<p><a href="https://subjectedu511.github.io/g5/class-406/" target="iframe_a">Stickman Hook</a></p>
+<p><a href="https://subjectedu511.github.io/g177/class-280/" target="iframe_a">Boxrob 1</a></p>
+<p><a href="https://subjectedu511.github.io/g2/class-437/" target="iframe_a">Slope 2</a></p>
+<p><a href="https://subjectedu511.github.io/g97/class-800/" target="iframe_a">Slope (2Player Version)</a></p>
+<p><a href="https://subjectedu511.github.io/g5/class-400/" target="iframe_a">Retro Bowl</a></p>
+
+<h6>if you want new stuff you should probably email me on my home email (foreignbandss@hotmail.com)</h6>
+______________________________________________________________________________________________
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-242cf477-fd6a-46fa-a7bb-2c8f04000c7b"></div>
+
+<p> VisualBasics V1 Realese </p>
+
+<p>Patch notes:
+  We're using interstellar now
+  we are sorry that some games are gone lol if you still wanna play them use the proxy
+  quiz-120 will be added soon :)
+</p>
+
+	
+  <title>Change your background!</title>
+  <p> change you background by going to an image on google, right clicking it and hitting: Copy image adress.
+     (Then paste it in the box) </p>
+     <head>
+      <meta charset="UTF-8">
+      <style>
+          body {
+              transition: background 0.5s ease-in-out;
+              background-size: cover;
+              background-position: center;
+              background-attachment: fixed;
+              color:#0ED9E7
+          }
+          input, button {
+              padding: 10px;
+              margin: 10px;
+              font-size: 16px;
+          }
+      </style>
+  </head>
+  <body>
+  
+      <h2>Enter Image URL to Change Background</h2>
+      <input type="text" id="bgUrl" placeholder="Enter image URL...">
+      <button onclick="changeBackground()">Go</button>
+  
+      <script>
+          // Function to load background from localStorage
+          function loadBackground() {
+              const savedBg = localStorage.getItem('backgroundImage');
+              if (savedBg) {
+                  document.body.style.backgroundImage = `url('${savedBg}')`;
+              } else {
+                  // Default background
+                  document.body.style.backgroundImage = "url('https://wallpapersmug.com/u/3f9733/mountains-landscape-retro-big-sunset-5k.jpg')";
+              }
+          }
+  
+          function changeBackground() {
+              const url = document.getElementById('bgUrl').value;
+              if (url) {
+                  document.body.style.backgroundImage = `url('${url}')`;
+                  localStorage.setItem('backgroundImage', url); // Save to localStorage
+              }
+          }
+  
+          // Load saved background when page loads
+          window.onload = loadBackground;
+      </script>
+  </div>
+  </body>
