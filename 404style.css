@@ -1,7 +1,7 @@
 body {
-  background-image: url('https://ik.imagekit.io/l7uslhlci/IMG_3493.jpeg'); /* Replace 'your_image.jpg' with your image file name and path */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: cover; /* Scales the image to cover the entire background */
-  background-position: center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+  background-image: url('https://ik.imagekit.io/l7uslhlci/IMG_3493.jpeg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
 }
